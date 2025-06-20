@@ -100,13 +100,16 @@ Editar
 ├── README.md
 └── package.json             # Dependências auxiliares
 
-👨‍💻 Integrantes do Grupo – 1TIAO
-Nome Completo	RM
-Matheus Parra	RM561907
-Otavio Custodio de Oliveira	RM565606
-Tiago Alves Cordeiro (líder do repositório)	RM561791
-Thiago Henrique Pereira de Almeida Santos	RM563327
-Leandro Arthur Marinho Ferreira	RM565240
+## 👨‍💻 Integrantes do Grupo – 1TIAO
+
+| Nome Completo                                   | RM       |
+| ----------------------------------------------- | -------- |
+| Matheus Parra                                   | RM561907 |
+| Otavio Custodio de Oliveira                     | RM565606 |
+| Tiago Alves Cordeiro (líder do repositório)     | RM561791 |
+| Thiago Henrique Pereira de Almeida Santos       | RM563327 |
+| Leandro Arthur Marinho Ferreira                 | RM565240 |
+
 
 Projeto desenvolvido para a disciplina Inteligência Artificial Aplicada
 FIAP – Fase 4 – 2025.1
