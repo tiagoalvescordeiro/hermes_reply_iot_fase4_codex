@@ -1,4 +1,6 @@
 # 🚜 Projeto Hermes Reply IoT Failures – Fase 4 (FIAP 2025.1 – 1TIAO)
+[![Atualizar Docs e Deps](https://github.com/tiagoalvescordeiro/hermes_reply_iot_fase4_codex/actions/workflows/auto-update.yml/badge.svg)](https://github.com/tiagoalvescordeiro/hermes_reply_iot_fase4_codex/actions)
+
 
 Sistema inteligente de irrigação baseado em IoT e Machine Learning, utilizando ESP32, sensores virtuais, modelo preditivo com Scikit-learn, interface com Streamlit e dashboard em tempo real. Este projeto é a continuação da Fase 3 da FarmTech Solutions, agora com foco em otimização, visualização e automação.
 
