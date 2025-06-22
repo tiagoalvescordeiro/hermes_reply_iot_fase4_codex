@@ -1,38 +1,15 @@
 name: Atualizar Docs e Deps
 
-# dispara diariamente às 19h UTC
-on:
-  schedule:
-    - cron: '0 19 * * *'
+# 🚧 DESABILITADO: as linhas abaixo comentadas impedem execução automática
+# on:
+#   push:
+#     branches: [ main ]
+#   pull_request:
 
 jobs:
-  commit-and-push:
+  disabled:
+    if: false
     runs-on: ubuntu-latest
-
     steps:
-      # 1) faz o checkout completo para podermos commitar de volta
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      # 2) configura o Git com credenciais do bot
-      - name: Configurar Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      # 3) (re)gera o requirements.txt automaticamente
-      - name: Gerar requirements.txt
-        run: |
-          pip install --upgrade pip
-          pip install scikit-learn streamlit
-          pip freeze > requirements.txt
-
-      # 4) commita e dá push nas alterações
-      - name: Commit e Push
-        run: |
-          git add README.md requirements.txt streamlit_app.py
-          git commit -m "chore: atualização automática de docs e deps" || echo "Nada para commitar"
-          git push origin HEAD:main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Workflow desativado
+        run: echo "Este workflow está desativado."
